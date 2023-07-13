@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+}
+
+form{
+    font-family: Kanit;
+}
+
+.textarea{
+    resize: none;
+}
+
+body{
+    background-color:white;
+    margin: 0px 0px;  
+}
+
+.contenedor-Principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.contenedor{ 
+    max-width: 900px;
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: rgb(221, 217, 212);
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.mbody{
+    padding-top: 90px;    
+}
+
+.titulo{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.ftitulo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.d-item_c{
+    height: 700px;
+}
+
+.d-img_c{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: relative;
+}    
+
+.item-sub{
+    padding-top: 0px;   
+    height: 0%;     
+}
+
+.item-sub p{
+    margin-left: 25px;
+}
+
+.red{
+    margin-left: 25px;
+}
+
+.libro{
+    margin-left: 1450px;
+}
+
+.derechos {
+    text-align: center ;
+}
+
+.redes_libros a{
+    margin-left: 25px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+form {
+  text-align: center;
+}
